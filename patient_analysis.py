@@ -11,3 +11,9 @@ print("Total number of patients:",number_of_patients)
 systolic_bp = [120,134,142,118,128,150,138,126,160,132]
 average_systolic = sum(systolic_bp)/len(systolic_bp)
 print("Average systolic BP:",average_systolic)
+
+high_bp_count = 0
+for bp in systolic_bp:
+  if bp>140:
+     high_bp_count = high_bp_count+1
+print("Number of patients with high systolic BP:",high_bp_count)
