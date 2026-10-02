@@ -17,3 +17,6 @@ for bp in systolic_bp:
   if bp>140:
      high_bp_count = high_bp_count+1
 print("Number of patients with high systolic BP:",high_bp_count)
+
+high_bp_percentage = (high_bp_count/len(systolic_bp))*100
+print("Percentage of patients with high systolic BP:",high_bp_percentage,"%")
