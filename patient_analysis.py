@@ -20,3 +20,10 @@ print("Number of patients with high systolic BP:",high_bp_count)
 
 high_bp_percentage = (high_bp_count/len(systolic_bp))*100
 print("Percentage of patients with high systolic BP:",high_bp_percentage,"%")
+
+ages = [25,42,56,31,68,47,53,29,72,38]
+older_patients = []
+for age in ages:
+  if age>60
+     older_patients.append(age)
+  print("Patients aged 60 or above:",older_patient)
